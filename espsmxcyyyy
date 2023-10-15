@@ -1,0 +1,31 @@
+-- Create a function to display player locations
+function showPlayerLocations()
+    for _, player in ipairs(game.Players:GetPlayers()) do
+        local playerPosition = player.Character and player.Character.PrimaryPart and player.Character.PrimaryPart.Position
+        if playerPosition then
+        |    print(player.Name .. "'s Position: " .. tostring(playerPosition))
+        end
+    end
+end
+
+-- Set up a loop to update player locations every 5 seconds
+while true do
+    showPlayerLocations()
+    wait(5)
+
+    -- Set up auto update
+    while true do
+        If player left
+        wait(1.2)
+then function  showPlayerLocations()
+    for _, player in ipairs(game.Players:GetPlayers()) do
+        local PlayerPosition = player.Character and player.Character.PrimaryPart and player.Character.PrimaryPart.Position
+    endif playerPosition then
+        | showPlayerLocations print(Script is in action close game for script to deactivate)
+        -- Looping player locations
+        If PlayerPosition = false then
+         If showPlayerLocations = false then if local playerPosition =false then showPlayerLocations=false function showPlayerLocations=false()
+            
+         end
+        end
+    end
